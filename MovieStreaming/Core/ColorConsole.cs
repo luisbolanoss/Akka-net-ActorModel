@@ -23,6 +23,16 @@ namespace MovieStreaming.Core
             WriteColorLine(message, ConsoleColor.Cyan);
         }
 
+        public static void WriteLineGray(string message)
+        {
+            WriteColorLine(message, ConsoleColor.Gray);
+        }
+
+        public static void WriteLineDarkGray(string message)
+        {
+            WriteColorLine(message, ConsoleColor.DarkGray);
+        }
+
         public static void WriteColorLine(string message, ConsoleColor color)
         {
             var beforeColor = Console.ForegroundColor;

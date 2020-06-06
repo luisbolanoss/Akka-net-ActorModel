@@ -9,11 +9,7 @@ namespace MovieStreaming.Actors
     {
         public UserActor()
         {
-            Console.WriteLine("Creating UserActor");
-
-            ColorConsole.WriteLineCyan("Setting initial behavior");
-            Stopped();
-            
+            Stopped();   
         }
 
         private void Playing()
